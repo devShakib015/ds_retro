@@ -1,3 +1,12 @@
+## 0.1.2
+
+Trimmed the Marketplace summary line. It ended with the author name and two
+URLs, which the listing header already shows above it — so the one sentence a
+reader uses to decide whether to look was spending half its length on repetition.
+The links stay in the README, where they do some work.
+
+No theme changes.
+
 ## 0.1.1
 
 Screenshots on the listing. A theme is chosen on how it looks, and 0.1.0 shipped
