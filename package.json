@@ -1,0 +1,50 @@
+{
+  "name": "ds-retro",
+  "displayName": "ds_retro",
+  "description": "devShakib Retro \u2014 a green-dominant CRT theme with retro colour sparks and italics. Two variants, measured contrast, nothing below 4.5:1. By devShakib \u2014 devshakib.jumyn.com \u00b7 github.com/devShakib015",
+  "version": "0.1.0",
+  "publisher": "devShakib",
+  "author": {
+    "name": "devShakib",
+    "url": "https://devshakib.jumyn.com"
+  },
+  "homepage": "https://devshakib.jumyn.com",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "retro",
+    "crt",
+    "terminal",
+    "matrix",
+    "green",
+    "italic",
+    "flutter",
+    "dart"
+  ],
+  "galleryBanner": {
+    "color": "#050A08",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "ds_retro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ds_retro-color-theme.json"
+      },
+      {
+        "label": "ds_retro Phosphor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ds_retro-phosphor-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
