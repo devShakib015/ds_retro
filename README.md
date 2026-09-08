@@ -73,7 +73,16 @@ Other faces that suit it, in descending order of how retro they read:
 | **Anonymous Pro** | classic terminal, softer, easy for long sessions |
 | **IBM Plex Mono** | most readable, mildest retro signal |
 
-`tool/font.sh` switches between them and backs up your settings each time.
+```bash
+tool/install-fonts.sh          # Victor Mono, the recommended one
+tool/install-fonts.sh --all    # every candidate above
+tool/font.sh                   # list them; tool/font.sh 3270 to switch
+```
+
+**Settings Sync does not carry fonts.** VS Code syncs `editor.fontFamily` but
+the typeface itself is an OS install, so a synced machine renders the fallback
+until `tool/install-fonts.sh` has been run there too. `tool/font.sh` switches
+between the installed faces and backs up your settings each time.
 
 ## Building
 
