@@ -8,8 +8,13 @@ devShakib Retro — a CRT theme for VS Code, built from the palette of the
 Two variants:
 
 - **ds_retro** — green-dominant with retro colour sparks. This is the one.
+
+![ds_retro](https://devshakib.jumyn.com/shots/ds_retro-1.jpg)
+
 - **ds_retro Phosphor** — near-monochrome green, for when the sparks are too
   much for a long session.
+
+![ds_retro Phosphor](https://devshakib.jumyn.com/shots/ds_retro-2.jpg)
 
 ## The idea
 
