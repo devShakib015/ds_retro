@@ -9,6 +9,13 @@
     "url": "https://devshakib.jumyn.com"
   },
   "homepage": "https://devshakib.jumyn.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devShakib015/ds_retro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devShakib015/ds_retro/issues"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
@@ -28,6 +35,7 @@
     "flutter",
     "dart"
   ],
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#050A08",
     "theme": "dark"
@@ -45,6 +53,5 @@
         "path": "./themes/ds_retro-phosphor-color-theme.json"
       }
     ]
-  },
-  "icon": "icon.png"
+  }
 }
